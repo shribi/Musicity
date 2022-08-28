@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634451752423",
+    "firebase_url": "https://musicity-669fd-default-rtdb.firebaseio.com",
+    "project_id": "musicity-669fd",
+    "storage_bucket": "musicity-669fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634451752423:android:d22267033b74c594e47942",
+        "android_client_info": {
+          "package_name": "com.example.musicity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634451752423-dq9ah6dajbb6ra9ev7s53sc2bua63113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZkPDNRTxECMdJ6XXIzte72PoqH9Ni_xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634451752423-dq9ah6dajbb6ra9ev7s53sc2bua63113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

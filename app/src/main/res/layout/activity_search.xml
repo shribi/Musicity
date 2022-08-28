@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search"
+    android:background="@drawable/bg1b">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtsearch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#5C5A5A"
+            android:drawableLeft="@drawable/ic_baseline_search"
+            android:hint="  Search "
+            android:padding="10dp"
+            android:paddingLeft="40dp"
+            android:popupBackground="@drawable/bg1b"
+            android:textColorHint="#FFFFFF">
+
+        </AutoCompleteTextView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtsearch"
+            android:id="@+id/searchlist"
+            android:background="@drawable/bg1b"
+            android:textColor="@color/white">
+        </ListView>
+
+
+
+    </RelativeLayout>
+    <com.example.jean.jcplayer.view.JcPlayerView
+        android:id="@+id/jcplayer"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_gravity="bottom"
+        android:background="#ECE4E4"
+        android:backgroundTint="#A48EC3"
+        android:backgroundTintMode="multiply"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+</FrameLayout>

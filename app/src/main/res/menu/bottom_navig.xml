@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_baseline_home"
+        android:id="@+id/homeicon"
+        android:title="Home"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_search"
+        android:id="@+id/searchicon"
+        android:title="Find"/>
+    <item
+        android:icon="@drawable/ic_baseline_album_24"
+        android:id="@+id/playicon"
+        android:title="Play"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_library_music_24"
+        android:id="@+id/playlisticon"
+        android:title="Library"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_person"
+        android:id="@+id/profileicon"
+        android:title="Profile"/>
+</menu>

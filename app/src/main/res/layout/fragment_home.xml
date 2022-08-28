@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1b"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/homelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="cursive"
+                android:text="Artists"
+                android:textColor="@color/ic_banner_background"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+                tools:ignore="NotSibling" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/artist"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageButton
+                        android:id="@+id/sonu"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:icon="@drawable/rounded_corner_view"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/sonu" />
+
+                    <ImageButton
+                        android:id="@+id/hari"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/sonu"
+                        app:layout_constraintTop_toTopOf="@+id/sonu"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/hari" />
+
+                    <ImageButton
+                        android:id="@+id/shankar"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/hari"
+                        app:layout_constraintTop_toTopOf="@+id/hari"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/shankar" />
+
+                    <ImageButton
+                        android:id="@+id/shreya"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/shankar"
+                        app:layout_constraintTop_toTopOf="@+id/shankar"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/shreyanew" />
+
+                    <ImageButton
+                        android:id="@+id/arijith"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/shreya"
+                        app:layout_constraintTop_toTopOf="@+id/shreya"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/arijith" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="cursive"
+                android:text="Albums"
+                android:textColor="@color/ic_banner_background"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="@+id/artist"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView1" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/album">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageButton
+                        android:id="@+id/rrr"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/rrr" />
+
+                    <ImageButton
+                        android:id="@+id/bajirao"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/rrr"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/bajirao" />
+
+                    <ImageButton
+                        android:id="@+id/bandish"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintStart_toEndOf="@+id/bajirao"
+                        app:srcCompat="@drawable/bandish"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageButton
+                        android:id="@+id/kalhonaho"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bandish"
+                        app:layout_constraintTop_toTopOf="@+id/bandish"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/kalho" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="cursive"
+                android:text="Labels"
+                android:textColor="@color/ic_banner_background"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="@+id/album"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView3"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/label"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageButton
+                        android:id="@+id/lahari"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+
+                        app:srcCompat="@drawable/lahari" />
+
+                    <ImageButton
+                        android:id="@+id/zee"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/lahari"
+                        app:layout_constraintTop_toTopOf="@+id/lahari"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/zee" />
+
+                    <ImageButton
+                        android:id="@+id/tseries"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/zee"
+                        app:layout_constraintTop_toTopOf="@+id/zee"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/tseries" />
+
+                    <ImageButton
+                        android:id="@+id/sony"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/tseries"
+                        app:layout_constraintTop_toTopOf="@+id/tseries"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/sony" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="cursive"
+                android:text="Daily Mix"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageButton
+                        android:id="@+id/dancenew"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/love"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/dance" />
+
+                    <ImageButton
+                        android:id="@+id/love"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rounded_corner_view"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/romantic" />
+
+                    <ImageButton
+                        android:id="@+id/sad"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_corner_view"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dancenew"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/sad" />
+                    <ImageButton
+                        android:id="@+id/hitarijith"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_corner_view"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/sad"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/arijit_hits" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="cursive"
+                android:text="Genre"
+                android:textColor="@color/ic_banner_background"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="@+id/label"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView3" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView4"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/genre"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageButton
+                        android:id="@+id/classical"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="12dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/classical" />
+
+                    <ImageButton
+                        android:id="@+id/danceparty"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/classical"
+                        app:layout_constraintTop_toTopOf="@+id/classical"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/dance_party" />
+                    <ImageButton
+                        android:id="@+id/dance"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/danceparty"
+                        app:layout_constraintTop_toTopOf="@+id/classical"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/dance" />
+                    <ImageButton
+                        android:id="@+id/romantic"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#00222222"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dance"
+                        app:layout_constraintTop_toTopOf="@+id/classical"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/romantic" />
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

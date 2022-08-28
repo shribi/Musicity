@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Musicity/app/src/main/res/font/basic.xml" value="0.2546875" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/activity_search.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/activity_songlist.xml" value="0.17572463768115942" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/activity_songslist.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/content_nav_drawer.xml" value="0.17572463768115942" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_button.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_player.xml" value="0.22" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_playlist.xml" value="0.25" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_profile.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_search.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_slideshow.xml" value="0.17572463768115942" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/fragment_songlist_.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/musicplayer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/nav_header.xml" value="0.17572463768115942" />
+        <entry key="..\:/Musicity/app/src/main/res/layout/song_name.xml" value="0.5" />
+        <entry key="..\:/Musicity/app/src/main/res/menu/bottom_navig.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/menu/drawer_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Musicity/app/src/main/res/menu/search_view.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/drawable/ic_baseline_home.xml" value="0.240625" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/drawable/ic_baseline_person.xml" value="0.240625" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/drawable/ic_baseline_playlist_add.xml" value="0.240625" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.240625" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/drawable/menu.xml" value="0.240625" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_home2.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_music_player.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/activity_rvactivity.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/content_nav_drawer.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_album.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_f_irst.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_playlist.xml" value="0.11096014492753623" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_profile.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_search.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/fragment_third_playlist.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/navhostfragment.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/recycler_layout.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/roundedcorner.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/layout/visiting_card.xml" value="0.21" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/menu/bottom_nav_menu.xml" value="1.5392857142857144" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/menu/bottom_navig.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lenovo/Desktop/Musicity/app/src/main/res/menu/drawer_menu.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
