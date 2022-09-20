@@ -1,7 +1,7 @@
                         -------------------------------MUSICITY-------------------------------
 
 Musicity is a Android Mobile application which allows users to stream songs online.
-The application was built in Java using Android Studio.
+The application was built in Java using Android Studio and Real-time database of Firebase for the data management.
 
 How to Install??
 
